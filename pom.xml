@@ -9,23 +9,23 @@
     <packaging>pom</packaging>
 
     <scm>
-        <url>https://github.com/Philia-Fintess/philia-fitness</url>
-        <connection>git://github.com/Philia-Fintess/philia-fitness.git</connection>
-        <developerConnection>git@github.com:Philia-Fintess/philia-fitness.git</developerConnection>
+        <url>https://github.com/Philia-Fitness/philia-fitness</url>
+        <connection>git://github.com/Philia-Fitness/philia-fitness.git</connection>
+        <developerConnection>git@github.com:Philia-Fitness/philia-fitness.git</developerConnection>
     </scm>
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/Philia-Fintess/philia-fitness/issues</url>
+        <url>https://github.com/Philia-Fitness/philia-fitness/issues</url>
     </issueManagement>
     <ciManagement>
         <system>Github Actions</system>
-        <url>https://github.com/Philia-Fintess/philia-fitness/actions</url>
+        <url>https://github.com/Philia-Fitness/philia-fitness/actions</url>
     </ciManagement>
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/Philia-Fintess/philia-fitness</url>
+            <url>https://maven.pkg.github.com/Philia-Fitness/philia-fitness</url>
         </repository>
     </distributionManagement>
     <licenses>
