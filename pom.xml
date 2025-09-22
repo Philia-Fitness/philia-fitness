@@ -41,7 +41,7 @@
         <java.version>21</java.version>
 
         <!-- Spring Boot -->
-        <pf-spring-boot.version>3.5.0</pf-spring-boot.version>
+        <pf-spring-boot.version>3.5.6</pf-spring-boot.version>
 
         <!-- Code Utils -->
         <lombok.version>1.18.42</lombok.version>
