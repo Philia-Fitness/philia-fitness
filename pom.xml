@@ -64,6 +64,9 @@
         <sonar-maven-plugin.version>3.10.0.2594</sonar-maven-plugin.version>
         <maven-deploy.skip>false</maven-deploy.skip>
 
+        <!-- Monitoring -->
+        <jolokia-core.version>1.7.2</jolokia-core.version>
+
         <!-- Testing -->
         <instancio.version>5.1.0</instancio.version>
         <testcontainers.version>1.19.8</testcontainers.version>
@@ -90,6 +93,13 @@
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
                 <version>${mapstruct.version}</version>
+            </dependency>
+
+            <!-- Monitoring -->
+            <dependency>
+                <groupId>org.jolokia</groupId>
+                <artifactId>jolokia-core</artifactId>
+                <version>${jolokia-core.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
